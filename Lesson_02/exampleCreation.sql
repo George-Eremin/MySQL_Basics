@@ -1,0 +1,14 @@
+CREATE SCHEMA IF NOT EXISTS `example` ;
+USE example;
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+id INT NOT NULL AUTO_INCREMENT, 
+name VARCHAR(255),
+PRIMARY KEY (id));
+
+INSERT INTO users VALUES 
+(DEFAULT, 'Коля'),
+(DEFAULT, 'Катя');
+
+SELECT * FROM users;
