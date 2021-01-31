@@ -1,0 +1,1 @@
+SELECT * FROM learn_mysql.lesson_05_03_storehouses_products ORDER BY `value`= 0, `value` ASC;
